@@ -24,7 +24,7 @@ Logistic_Result      逻辑回归模型运行结果
 svm_model.xml                SVM模型  
 logistic_regression.joblib   逻辑回归模型  
 4. Code文件内容
->>> **SVM模型**
+>>> **SVM模型**  
 (1) DataLoader.py  
     内含DataLoader类，类内实现加载所有训练集图片并生成标签；  
     正样本： 把含有人像的部分剪裁下来，并Resize为64*128像素；  
@@ -38,7 +38,7 @@ logistic_regression.joblib   逻辑回归模型
 (5) roc_curve.py  
     绘制ROC曲线，计算AUC  
 
->>> **Logistic回归模型**  
+>>> **Logistic回归模型**    
 (1) Logistic_Train.py   
     利用DataLoader加载的数据训练Logistic回归模型  
 (2) Logistic_Test.py  
